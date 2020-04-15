@@ -36,7 +36,7 @@ public class HeartBeatReqHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
         if (evt instanceof IdleStateEvent){
-            IdleStateEvent event = (IdleStateEvent)evt;
+            IdleStateEvent event = (IdleStateEvent) evt;
             if (event.state()== IdleState.WRITER_IDLE){
                 // 30s 没有写事件了，连接关闭
                 ctx.channel().close();
