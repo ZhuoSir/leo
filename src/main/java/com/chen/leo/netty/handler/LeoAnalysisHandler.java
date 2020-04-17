@@ -1,9 +1,13 @@
 package com.chen.leo.netty.handler;
 
+import com.chen.leo.proxy.TransportEventProxy;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
 
-public class LeoAnalysisHandler extends ChannelInboundHandlerAdapter {
+public class LeoAnalysisHandler extends TransportEventHandler {
+
+    public LeoAnalysisHandler(TransportEventProxy transportEventProxy) {
+        super(transportEventProxy);
+    }
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {

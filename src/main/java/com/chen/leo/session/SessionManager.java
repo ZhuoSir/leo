@@ -8,11 +8,7 @@ public interface SessionManager {
 
     Session getSession(String sessionId);
 
-    Session getSessionByAccountId(String accountId);
-
-    void updateSession(Session imSession);
-
-    void removeSession(String sessionId);
+    Session removeSession(String sessionId);
 
     void closeSession(String sessionId);
 
