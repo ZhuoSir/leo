@@ -1,0 +1,201 @@
+2020-04-22 21:55:00 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 21:55:00 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 21:58:16 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 21:58:16 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:01:29 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:01:29 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:04:45 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:04:45 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:04:51 [ nioEventLoopGroup-3-1 ] 58ebb48e38fb43a880eb8ffd4e3903ac connected...
+2020-04-22 22:05:26 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:05:26 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:05:37 [ nioEventLoopGroup-3-1 ] b2698554a92a47f0b67057123555b406 connected...
+2020-04-22 22:06:38 [ nioEventLoopGroup-3-2 ] ff1167e25fa043d78825f539d5f420da connected...
+2020-04-22 22:07:18 [ nioEventLoopGroup-3-3 ] 230908b4b1b84dc9aedfff2f6cba7c8b connected...
+2020-04-22 22:08:39 [ nioEventLoopGroup-3-4 ] 721b2e0a28e246a2a19fde7f6d3e0df8 connected...
+2020-04-22 22:11:26 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:11:26 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:11:29 [ nioEventLoopGroup-3-1 ] 2dd0495d41f648eb85370ce022321d68 connected...
+2020-04-22 22:12:22 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:12:22 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:15:04 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:15:04 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:15:09 [ nioEventLoopGroup-3-1 ] 49e655aa5e1247e0be1c4e3d3e5a08ba connected...
+2020-04-22 22:15:14 [ nioEventLoopGroup-3-1 ] 49e655aa5e1247e0be1c4e3d3e5a08ba connection has disconnected..
+2020-04-22 22:19:56 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:19:56 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:20:45 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:20:45 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:20:51 [ nioEventLoopGroup-3-1 ] 6b59eac2570d48baa5b049984f4668d8 connected...
+2020-04-22 22:21:15 [ nioEventLoopGroup-3-1 ] 6b59eac2570d48baa5b049984f4668d8 connection has disconnected..
+2020-04-22 22:31:32 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:31:32 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:31:38 [ nioEventLoopGroup-3-1 ] ec8b056ee42b4ce380230be2d9abd3cb connected...
+2020-04-22 22:31:39 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:39 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:40 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:40 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:41 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:41 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:42 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:42 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:43 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:43 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:44 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:44 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:45 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:45 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:46 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:46 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:47 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:47 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:48 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:48 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:49 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:49 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:50 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:50 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:51 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:51 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:52 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:52 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:53 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:53 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:54 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:54 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:55 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:55 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:31:56 [ nioEventLoopGroup-3-1 ] received msg from ec8b056ee42b4ce380230be2d9abd3cb
+2020-04-22 22:31:56 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:11 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:34:11 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:34:22 [ nioEventLoopGroup-3-1 ] 2e9f161a17104291b76459e9e46418ae connected...
+2020-04-22 22:34:23 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:23 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:24 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:24 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:25 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:25 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:26 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:26 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:27 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:27 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:28 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:28 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:29 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:29 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:30 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:30 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:31 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:31 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:32 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:32 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:33 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:33 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:34 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:34 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:35 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:35 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:36 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:36 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:37 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:37 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:38 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:38 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:39 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:39 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:40 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:40 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:41 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:41 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:42 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:42 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:43 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:43 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:44 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:44 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:45 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:45 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:46 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:46 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:47 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:47 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:48 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:48 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:49 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:49 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:50 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:50 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:51 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:51 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:52 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:52 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:53 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:53 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:54 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:54 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:55 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:55 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:56 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:56 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:34:57 [ nioEventLoopGroup-3-1 ] received msg from 2e9f161a17104291b76459e9e46418ae
+2020-04-22 22:34:57 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:03 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:35:03 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:35:14 [ nioEventLoopGroup-3-1 ] 187ee7295f9448f392a31f3377985109 connected...
+2020-04-22 22:35:15 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:15 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:16 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:16 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:17 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:17 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:18 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:18 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:19 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:19 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:20 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:20 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:21 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:21 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:22 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:22 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:23 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:23 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:24 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:24 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:25 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:25 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:27 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:27 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:28 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:28 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:29 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:29 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:30 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:30 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:31 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:31 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:32 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:32 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:41 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:41 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:41 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:41 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:42 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:42 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:46 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:46 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:46 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:46 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:35:47 [ nioEventLoopGroup-3-1 ] received msg from 187ee7295f9448f392a31f3377985109
+2020-04-22 22:35:47 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='HB', params={}, uri='null', code='0'}, header=Header{headers={}}, content='Content{body='null'}'}
+2020-04-22 22:37:51 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:37:51 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:37:55 [ nioEventLoopGroup-3-1 ] 67c7335509274429b72ca6fe95f64aa6 connected...
+2020-04-22 22:38:10 [ nioEventLoopGroup-3-1 ] 67c7335509274429b72ca6fe95f64aa6 connection has disconnected..
+2020-04-22 22:38:50 [ main ]  TransportServer 启动中：线程数：10 端口号：7000 是否同步：true
+2020-04-22 22:38:50 [ nioEventLoopGroup-2-1 ]  TransportServer 启动成功
+2020-04-22 22:38:56 [ nioEventLoopGroup-3-1 ] 8cf46efab0404fd4ba85502ca34d7deb connected...
+2020-04-22 22:39:01 [ nioEventLoopGroup-3-1 ] received msg from 8cf46efab0404fd4ba85502ca34d7deb
+2020-04-22 22:39:01 [ nioEventLoopGroup-3-1 ] request :TransportRequest{line=Line{cmd='CMD', params={}, uri='null', code='0'}, header=Header{headers={content-format=application/json}}, content='Content{body='name=chen&age=18'}'}
+2020-04-22 22:39:33 [ nioEventLoopGroup-3-1 ] 8cf46efab0404fd4ba85502ca34d7deb connection has disconnected..
