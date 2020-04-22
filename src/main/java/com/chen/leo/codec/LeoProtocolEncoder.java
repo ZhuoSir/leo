@@ -9,5 +9,8 @@ public class LeoProtocolEncoder extends MessageToByteEncoder<Object> {
     @Override
     protected void encode(ChannelHandlerContext ctx, Object msg, ByteBuf out) throws Exception {
 
+
+
+
     }
 }

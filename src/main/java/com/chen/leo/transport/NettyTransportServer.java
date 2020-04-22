@@ -3,10 +3,9 @@ package com.chen.leo.transport;
 import com.chen.leo.codec.MessageDecoder;
 import com.chen.leo.codec.MessageEncoder;
 import com.chen.leo.netty.handler.HeartBeatReqHandler;
-import com.chen.leo.netty.handler.LoginReqHandler;
-import com.chen.leo.netty.handler.MessageReceivedHandler;
 import com.chen.leo.proto.Request;
 import com.chen.leo.proxy.TransportEventProxy;
+import com.chen.leo.session.SessionManager;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -14,11 +13,10 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.timeout.IdleStateHandler;
 import org.apache.log4j.Logger;
-import org.springframework.stereotype.Component;
 
 public class NettyTransportServer implements  TransportServer {
 
-    private TransportEventProxy transportEventProxy;
+
 
     private Logger logger = Logger.getLogger(NettyTransportServer.class);
 
@@ -39,6 +37,9 @@ public class NettyTransportServer implements  TransportServer {
     private int port;
 
     private boolean sync;
+
+    private TransportEventProxy transportEventProxy;
+    private SessionManager      sessionManager;
 
     public NettyTransportServer(TransportEventProxy transportEventProxy) {
         this.transportEventProxy = transportEventProxy;
@@ -69,8 +70,6 @@ public class NettyTransportServer implements  TransportServer {
                 pipeline.addLast("messageEncoder", new MessageEncoder());
                 pipeline.addLast(new IdleStateHandler(0, 15, 0));
                 pipeline.addLast(new HeartBeatReqHandler(transportEventProxy));
-                pipeline.addLast(new LoginReqHandler(transportEventProxy));
-                pipeline.addLast(new MessageReceivedHandler(transportEventProxy));
             }
         }).option(ChannelOption.SO_BACKLOG, 128) //客户端连接请求放在队列中等待处理，backlog参数指定了队列的大小
                 .childOption(ChannelOption.SO_KEEPALIVE, true); //保持连接检测对方主机是否崩溃，避免（服务器）永远阻塞于TCP连接的输入。

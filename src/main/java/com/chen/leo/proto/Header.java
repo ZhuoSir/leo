@@ -1,14 +1,21 @@
 package com.chen.leo.proto;
 
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
 public class Header {
 
-    private int type;
+    private Map<String, String> headers;
 
-    public int getType() {
-        return type;
+    public Header() {
+        this.headers = new ConcurrentHashMap<>();
     }
 
-    public void setType(int type) {
-        this.type = type;
+    public void setHeaders(Map<String, String> headers) {
+        this.headers = headers;
+    }
+
+    public Map<String, String> getHeaders() {
+        return headers;
     }
 }

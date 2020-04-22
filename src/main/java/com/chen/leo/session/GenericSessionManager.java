@@ -9,7 +9,6 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
-@Component
 public class GenericSessionManager implements SessionManager {
 
     private Map<String, Session> sessionPool = new ConcurrentHashMap<>();

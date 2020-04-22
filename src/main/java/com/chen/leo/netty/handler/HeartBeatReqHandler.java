@@ -2,6 +2,7 @@ package com.chen.leo.netty.handler;
 
 import com.chen.leo.proto.*;
 import com.chen.leo.proxy.TransportEventProxy;
+import com.chen.leo.session.Session;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.timeout.IdleState;
 import io.netty.handler.timeout.IdleStateEvent;
@@ -13,6 +14,18 @@ public class HeartBeatReqHandler extends TransportEventHandler {
     }
 
     @Override
+    public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        super.channelActive(ctx);
+
+        if (sessionManager != null) {
+            Session session = sessionManager.createSession(ctx);
+            if (transportEventProxy != null) {
+                transportEventProxy.connectEvent(session);
+            }
+        }
+    }
+
+    @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         super.channelRead(ctx, msg);
 
@@ -20,7 +33,7 @@ public class HeartBeatReqHandler extends TransportEventHandler {
 
         // 心跳类型
         if (request.getHeader() != null
-                && request.getHeader().getType() == Request.REQUESTTYPE_HEARTBEAT) {
+                && request.getLine().getCmd().equals(Request.REQUESTTYPE_HEARTBEAT)) {
             // 心跳响应
             Response response = buildHeartBeatResponse();
             ctx.writeAndFlush(response);
@@ -30,11 +43,8 @@ public class HeartBeatReqHandler extends TransportEventHandler {
     }
 
     public Response buildHeartBeatResponse() {
-        TransportResponse response = new HeartBeatResponse();
-        Header header = new Header();
-        header.setType(Response.REPONSETYPE_HEARTBEAT);
-        response.setHeader(header);
-        return response;
+        TransportResponse.Builder builder = new TransportResponse.Builder();
+        return builder.heartBeatResp().build();
     }
 
     @Override

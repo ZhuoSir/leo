@@ -5,7 +5,7 @@ import io.netty.util.AttributeKey;
 public interface Constants {
 
     interface SessionConfig {
-        String SESSION_KEY= "sessionId" ;
+        String SESSION_KEY= "SESSIONID" ;
     }
 
 }

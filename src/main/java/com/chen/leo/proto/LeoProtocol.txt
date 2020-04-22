@@ -1,0 +1,55 @@
+Leo协议格式：
+
+    数据行 Transport line :
+
+        请求类型 SP 请求方法 SP 协议版本 CRLF
+
+         -------------------------------------------------------------------
+        |           |      |           |      |           |                |
+        |   请求类型 |  SP  |  请求方法  |  SP  |  协议版本  |  CRLF          |
+        |           |      |           |      |           |                |
+         -------------------------------------------------------------------
+
+    数据头 Transport header :
+
+         -------------------------------------------------------------------
+        |           |        |              |                               |
+        |   key     |  COLON |      value   |    CRLF                       |
+        |           |        |              |                               |
+         -------------------------------------------------------------------
+
+    数据体 Transport body :
+
+        内容格式根据格式而定；
+
+举例：
+
+    心跳(heartbeat) :
+        HB NULL LEO1.0 CRLF
+
+    指令(Command) :
+    CMD /path1/path2/method /LEO1.0 CRLF
+
+    Content-Type: Json CRLF
+    Content-Length:120 CRLF
+    Accept-Charset：utf-8
+
+    {
+        body: content
+    }
+
+    --------------
+
+    Content-Type: XML CRLF
+    Content-Length:120 CRLF
+
+    <xml>
+        <bean>
+        </bean>
+    </xml>
+
+    ---------------
+
+    Content-Type: protobuf CRLF
+    Content-Length:120 CRLF
+    121312131212131sdw
