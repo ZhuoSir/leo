@@ -35,14 +35,13 @@ public class HeartBeatHandler extends TransportHandler {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        super.channelRead(ctx, msg);
 
         TransportResponse transportResponse = (TransportResponse) msg;
         if (transportResponse.getLine().getCmd().equals(Response.REPONSETYPE_HEARTBEAT)) {
             logger.info("pong...");
+        } else {
+            ctx.fireChannelRead(msg);
         }
-
-        ctx.fireChannelRead(msg);
     }
 
     private void heatbeat(Channel channel) {
